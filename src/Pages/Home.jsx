@@ -57,18 +57,22 @@ function Home() {
           <div className="col-md-3 p-3"> <img style={{height:"75%"}} className='img-fluid' src="https://assets.livecareer.co.uk/blobimages/lcintl-lp/luk/images/grid/grid7.png" alt="no img" /></div>
 
           <div className="col-md-3 p-3"> <img style={{height:"75%"}} className='img-fluid' src="https://assets.livecareer.co.uk/blobimages/lcintl-lp/luk/images/grid/grid3.png" alt="no img" /></div>
-
-          <div className="col-md-3 p-3"> <img style={{height:"75%"}} className='img-fluid' src="https://img.freepik.com/premium-photo/happy-man-ai-generated-portrait-user-profile_1119669-1.jpg" alt="no img" /></div>
-
+          {/*  */}
+           <div className="col-md-3 p-3"> <img style={{height:"75%"}} className='img-fluid' src="https://img.freepik.com/premium-photo/happy-man-ai-generated-portrait-user-profile_1119669-1.jpg" alt="no img" /></div>
           <div className="col-md-3 p-3"> <img style={{height:"75%"}} className='img-fluid' src="https://tse3.mm.bing.net/th/id/OIP.2i5UaEHaQM3PYAYXQyM1AAAAAA?pid=Api&P=0&h=180" alt="no img" /></div>
+
           <div className="col-md-3 p-3"> <img style={{height:"75%"}} className='img-fluid' src="https://img.freepik.com/premium-photo/girl-happy-portrait-user-profile-by-ai_1119669-10.jpg" alt="no img" /></div>
 
-          <div className="col-md-3 p-3"> <img style={{height:"75%"}} className='https://writestylesonline.com/wp-content/uploads/2018/11/Three-Statistics-That-Will-Make-You-Rethink-Your-Professional-Profile-Picture-1024x1024.jpg' src="/about.avif" alt="no img" /></div>
-
-          <div className="col-md-3 p-3"> <img style={{height:"75%"}} className='img-fluid' src="https://i.pinimg.com/originals/07/33/ba/0733ba760b29378474dea0fdbcb97107.png" alt="no img" /></div>
+          <div className="col-md-3 p-3"> <img style={{height:"75%"}} className='img-fluid' src="https://writestylesonline.com/wp-content/uploads/2018/11/Three-Statistics-That-Will-Make-You-Rethink-Your-Professional-Profile-Picture-1024x1024.jpg" alt="no img" /></div>
+          {/*  */}
+           <div className="col-md-3 p-3"> <img style={{height:"75%"}} className='img-fluid' src="https://i.pinimg.com/originals/07/33/ba/0733ba760b29378474dea0fdbcb97107.png" alt="no img" /></div>
           <div className="col-md-3 p-3"> <img style={{height:"75%"}} className='img-fluid' src="https://tse3.mm.bing.net/th/id/OIP.wPWx97qT9JbAIeh4t6TDVQHaHa?pid=Api&P=0&h=180" alt="no img" /></div>
+
           <div className="col-md-3 p-3"> <img style={{height:"75%"}} className='img-fluid' src="https://img.freepik.com/premium-photo/design-professional-profile-picture-with-sharp-focus-natural-lighting-clean-neutral-background_880763-20280.jpg?w=1060" alt="no img" /></div>
+
           <div className="col-md-3 p-3"> <img style={{height:"75%"}} className='img-fluid' src="https://tse2.mm.bing.net/th/id/OIP.4oYqJqInuQd2TAlPPdggLgHaHa?pid=Api&P=0&h=180" alt="no img" /></div>
+
+          
         </div>
        </div>
   </div>
