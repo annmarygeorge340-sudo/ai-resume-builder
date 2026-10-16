@@ -5,7 +5,13 @@ import Step from '@mui/material/Step';
 import StepLabel from '@mui/material/StepLabel';
 import Button from '@mui/material/Button';
 import Typography from '@mui/material/Typography';
-import { dividerClasses, Switch } from '@mui/material';
+import { TextField} from '@mui/material';
+import InputLabel from '@mui/material/InputLabel';
+import MenuItem from '@mui/material/MenuItem';
+import FormControl from '@mui/material/FormControl';
+import Select from '@mui/material/Select';
+
+
 
 const steps = ['Basic Information', 'Contact Details', 'Educational details','Review & Submit'];
 
@@ -27,18 +33,47 @@ function ResumeInput() {
       case 0:return(
         <div>
           <h1>Personal Details</h1>
+         <div className='row p-3 '>
+            <TextField  id="standard-basic-fullname" label="Full Name" variant="standard" /> 
+             <TextField  id="standard-basic-location" label="Location" variant="standard" />
+              <FormControl variant='standard'>
+          <InputLabel id="demo-simple-select-label">Chose job title</InputLabel>
+          <Select
+            labelId="demo-simple-select-label"
+            id="demo-simple-select"
+          
+            label="JOB"
+          
+          >
+            <MenuItem value={"JOB"}>Job</MenuItem>
+         
+          </Select>
+        </FormControl>
+         </div>
         </div>
       )
       break;
     case 1:return(
         <div>
           <h1>Contact Details</h1>
+          <div className='row p-3'>
+             <TextField  id="standard-basic-email" label="E-mail" variant="standard" /> 
+             <TextField  id="standard-basic-contactno" label="Contact Number" variant="standard" />
+              <TextField  id="standard-basic-linkedin" label="Linkedin link" variant="standard" /> 
+             <TextField  id="standard-basic-github" label="Github Link" variant="standard" />
+          </div>
         </div>
       )
       break;
       case 2:return(
         <div>
           <h1>Educational Details</h1>
+          <div className='row p-3'>
+            
+             <TextField  id="standard-basic-Degree" label="Bachelor's Degree" variant="standard" /> 
+             <TextField id="standard-basic-university" label="university/collage name" variant="standard" />
+              <TextField  id="standard-basic-year" label="year of Graduation" variant="standard" /> 
+          </div>
         </div>
       )
       break;
@@ -87,7 +122,7 @@ function ResumeInput() {
            renderFormCount(activeStep)
             }
           </Box>
-          <Box sx={{ display: 'flex', flexDirection: 'row', pt: 2 }}>
+          <Box sx={{ display: 'flex', flexDirection: 'row', py: 5 }}>
             <Button
               color="inherit"
               disabled={activeStep === 0}

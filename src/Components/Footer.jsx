@@ -4,11 +4,11 @@ import { MdMailOutline } from 'react-icons/md'
 
 function Footer() {
   return (
-    <div style={{backgroundColor:'#c7b59f',height:'300px'}} className='container-fluid'>
-      <div className='row'>
+    <div style={{backgroundColor:'#bca588',height:'300px'}} className='container-fluid'>
+      <div className='row mx-5'>
         <div className="col-lg-4">
-          <h4 className='my-3 '>AIrBUILDER</h4>
-<p style={{textAlign:"justify"}}>  An AI Powered Resume Builder is a web application that helps users create professional resumes quickly and efficiently using artificial intelligence. Traditional resume creation can be time-consuming and difficult, especially for freshers who may not know the correct format or keywords required for modern recruitment systems.</p>
+          <h4 className='my-3 fs-2 '>AIrBUILDER</h4>
+<p style={{textAlign:"justify"}} className='fs-5'>  An AI Powered Resume Builder is a web application that helps users create professional resumes quickly and efficiently using artificial intelligence. Traditional resume creation can be time-consuming and difficult, especially for freshers who may not know the correct format or keywords required for modern recruitment systems.</p>
         </div>
         <div className="col-lg-4"></div>
         <div className="col-lg-4 my-3" >

@@ -9,6 +9,8 @@ import Pnf from './Pages/Pnf'
 import Download from './Pages/Download'
 import Header from './Components/Header'
 import Footer from './Components/Footer'
+import View from './Pages/View'
+
 
 function App() {
 
@@ -22,7 +24,7 @@ function App() {
       <Route path='/' element={<Home/>}/>
       <Route path='/resume' element={<Resume/>}/>
       <Route path='/all-resumes' element={<Saved/>}/>
-      <Route path='/resume/:id' element={<view/>}/>
+      <Route path='/resume/:id' element={<View/>}/>
       <Route path='/resume-details' element={<Info/>}/>
       <Route path='/download' element={<Download/>}/>
       <Route path='/*' element={<Pnf/>}/>
