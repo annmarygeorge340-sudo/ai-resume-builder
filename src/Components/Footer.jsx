@@ -4,19 +4,19 @@ import { MdMailOutline } from 'react-icons/md'
 
 function Footer() {
   return (
-    <div style={{backgroundColor:'#bca588',height:'300px'}} className='container-fluid'>
+    <div style={{backgroundColor:'#3E2723',height:'100% '}} className='container-fluid'>
       <div className='row mx-5'>
         <div className="col-lg-4">
-          <h4 className='my-3 fs-2 '>AIrBUILDER</h4>
-<p style={{textAlign:"justify"}} className='fs-5'>  An AI Powered Resume Builder is a web application that helps users create professional resumes quickly and efficiently using artificial intelligence. Traditional resume creation can be time-consuming and difficult, especially for freshers who may not know the correct format or keywords required for modern recruitment systems.</p>
+          <h4 className='my-3 fs-2 text-light '>AIrBUILDER</h4>
+<p style={{textAlign:"justify" ,color: '#F5E6D3'}} className='fs-5 text-light'>  An AI Powered Resume Builder is a web application that helps users create professional resumes quickly and efficiently using artificial intelligence. Traditional resume creation can be time-consuming and difficult, especially for freshers who may not know the correct format or keywords required for modern recruitment systems.</p>
         </div>
         <div className="col-lg-4"></div>
-        <div className="col-lg-4 my-3" >
-        <h4>Contact US</h4>
-        <MdMailOutline/> resumebuilder@gmail.com
-        <p><FaPhoneAlt/> 9995745861</p>
-        <h5>Connect With US</h5>
-        <div className='fs-5'>
+        <div className="col-lg-4 my-3"style={{color: '#F5E6D3'}} >
+        <h3 className='pb-3'>Contact US</h3>
+   <h6>     < MdMailOutline/> resumebuilder@gmail.com</h6>
+        <h6><FaPhoneAlt/> 9995745861</h6>
+        <h5 className='mt-4'>Connect With US</h5>
+        <div className='fs-4'>
           <FaInstagram /> 
           <FaFacebook className='mx-3'/> 
             <FaWhatsapp/> 
@@ -25,7 +25,7 @@ function Footer() {
         </div>
         
       </div>
-      <h4 className='text-center mt-4'>Designed & built with ❤️ using React</h4>
+      <h4 className='text-center mt-4 pb-3' style={{color: '#F5E6D3'}}>Designed & built with ❤️ using React</h4>
     </div>
     
   )

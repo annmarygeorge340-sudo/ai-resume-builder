@@ -1,9 +1,13 @@
 import React from 'react'
+import { Link } from 'react-router-dom'
 
 function Pnf() {
   return (
-    <div>
-      Pnf
+    <div style={{height:'90vh'}} className='d-flex justify-content-center align-items-center flex-column'>
+
+  <img style={{height:'90vh'}} src="https://img.magnific.com/premium-vector/page-found-error-404-system-updates-uploading-computing-operation-installation-programs-system-maintenance-hand-drawn-vector-layout-template-broken-robot-vector-illustration_36380-1370.jpg?semt=ais_hybrid&w=740&q=80" alt="no img" />
+    <h2>WE ARE SORRY,LOOK LIKE YOU ARE LOST</h2>
+    <Link className='btn btn-danger p-2 mb-5'>BACK TO HOME</Link>
     </div>
   )
 }

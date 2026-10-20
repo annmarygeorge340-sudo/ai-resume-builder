@@ -3,7 +3,7 @@ import { Link } from 'react-router-dom'
 
 function Home() {
   return (
-    <div>
+    <div className='holehomepage'style={{background:'#ded8d1'}} >
     {/* landing */}
     <div style={{height:'100vh',background:'url(/landing.png)',backgroundSize:'cover',backgroundAttachment:'fixed'}} className='d-flex justify-content-center align-items-center'>
     <div style={{backgroundColor:"rgba(0,0,0,0.4)"}} className='text-center rounded p-5 w-50 text-light'><h1>Designed to get heired.Your skills,your story,your next Job-all Job in one.</h1>
@@ -11,7 +11,7 @@ function Home() {
     </div>
     </div>
     {/* about */}
-<div className='container my-5'>
+<div className='container my-5 ' >
   <h1 className='text-center my-5'>What's AI Builder</h1>
   <div className='row align-items-center'>
     <div className='col-lg-1'></div>
@@ -31,13 +31,13 @@ function Home() {
 </div>
 
     {/* image */}
-    <div  style={{height:'100vh',background:'url(https://img.magnific.com/free-photo/multiracial-male-female-colleagues-having-discussion-team-meeting_1163-5107.jpg?semt=ais_hybrid&w=740&q=80)',backgroundSize:'cover',backgroundAttachment:'fixed'}} className='d-flex justify-content-center align-items-center'></div>
+    <div  style={{height:'100vh',background:'url(/landing2.png)',backgroundSize:'cover',backgroundAttachment:'fixed'}} className='d-flex justify-content-center align-items-center'></div>
  
  
     {/* testimony */}
 
 
-    <div className='container my-5'>
+    <div className='container  ' style={{background:'#ded8d1'}}>
   <h1 className='text-center my-5'>What's AI Builder</h1>
   <div className='row align-items-center'>
     <div className='col-lg-1'></div>

@@ -7,8 +7,9 @@ import InputLabel from '@mui/material/InputLabel';
 import MenuItem from '@mui/material/MenuItem';
 import FormControl from '@mui/material/FormControl';
 import Select from '@mui/material/Select';   
-import { MdEditSquare } from 'react-icons/md';
+import {  MdDeleteForever, MdEditSquare } from 'react-icons/md';
 import { TextField } from '@mui/material';
+
 
 
 const style = {
@@ -17,6 +18,8 @@ const style = {
   left: '50%',
   transform: 'translate(-50%, -50%)',
   width: 600,
+  maxHeight:'80vh',
+  overflow:'auto',
   bgcolor: 'background.paper',
   border: '2px solid #000',
   boxShadow: 24,
@@ -62,6 +65,47 @@ function Edit() {
                  </FormControl>
                   </div>
                  </div>
+                 {/* contact */}
+                 <div>
+   <h1>Contact Details</h1>
+          <div className='row p-3'>
+             <TextField  id="standard-basic-email" label="E-mail" variant="standard" /> 
+             <TextField  id="standard-basic-contactno" label="Contact Number" variant="standard" />
+              <TextField  id="standard-basic-linkedin" label="Linkedin link" variant="standard" /> 
+             <TextField  id="standard-basic-github" label="Github Link" variant="standard" />
+          </div>
+        </div>
+                 {/* educational derails */}
+                  <div>
+          <h1>Educational Details</h1>
+          <div className='row p-3'>
+            
+             <TextField  id="standard-basic-Degree" label="Bachelor's Degree" variant="standard" /> 
+             <TextField id="standard-basic-university" label="university/collage name" variant="standard" />
+              <TextField  id="standard-basic-year" label="year of Graduation" variant="standard" /> 
+          </div>
+        </div>
+
+        {/* skills */}
+        <div>
+          <h2>Skills</h2>
+          <div className='d-flex p-3'>
+            <input type="text" placeholder='Add Skills' className='form-control'/>
+<button className='btn'>Add</button>
+          </div>
+          <h5>Added Skills:</h5>
+          <div className='d-flex justify-content-between flex-wrap p-3'>
+            <Button variant='contained'>Skills <MdDeleteForever className='ms-3 fs-4' /></Button>
+
+          </div>
+      
+<h2>Summary</h2>
+<div className='row p-3'>
+  <TextField id='summary' label='summary' variant='standard'></TextField>
+</div>
+  </div>
+{/* update button */}
+<button className='btn btn-primary'>Update CV</button>
           </Box>
         </Box>
       </Modal>
